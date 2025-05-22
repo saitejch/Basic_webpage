@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background: linear-gradient(120deg, #a18cd1, #fbc2eb);
+  color: #2c3e50;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  padding: 40px 0;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 15px;
+  margin-bottom: 30px;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  color: #fff;
+}
+
+header p {
+  font-size: 1.2rem;
+  color: #f0f0f0;
+}
+
+.about, .contact {
+  background: rgba(255, 255, 255, 0.8);
+  padding: 25px;
+  margin: 20px auto;
+  border-radius: 15px;
+  max-width: 800px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.about h2, .contact h2 {
+  color: #6c5ce7;
+  margin-bottom: 10px;
+}
+
+.about p, .contact p {
+  line-height: 1.7;
+}
+
+button {
+  padding: 12px 20px;
+  font-size: 1rem;
+  background-color: #6c5ce7;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin: 10px 0;
+}
+
+button:hover {
+  background-color: #4834d4;
+}
+
+.social-links {
+  margin-top: 15px;
+}
+
+.social-links a {
+  display: inline-block;
+  margin: 5px 0;
+  color: #2d3436;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.social-links a:hover {
+  text-decoration: underline;
+  color: #d63031;
+}
+
+footer {
+  text-align: center;
+  margin-top: 40px;
+  color: #fff;
+}
